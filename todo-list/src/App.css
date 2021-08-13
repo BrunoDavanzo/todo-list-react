@@ -1,0 +1,69 @@
+body{
+    height: 100%;
+    background-color: rgb(44, 88, 88);
+    font-family: 'Courgette', cursive;
+}
+h1{
+   margin: 100px 0 80px 620px;
+   font-size: 50px;
+   color: rgb(16, 231, 16);
+   
+}
+form{
+    display:inline-flex;
+    margin-left: 32%;
+}
+.todo-input{
+    width: 370px;  
+    height: 30px; 
+    text-decoration: none;
+    border: none;
+    font-family: 'Courgette', cursive;
+    
+    font-size: larger;
+}
+.todo-button{
+    background-color:rgb(16, 231, 16);
+    margin:0 10px 0 2px;
+    width: 32px; 
+    border:none;
+    height: 32px;
+}
+.filter-todo{
+    height: 32px;
+    width: 150px;
+    font-family: 'Courgette', cursive;
+    font-weight: bold;
+    font-size: larger;
+}
+.todo-list {
+    width: 42%;
+    list-style: none;
+    margin-left: 29%;
+}
+.complete-btn{
+    background-color: rgb(16, 231, 16);
+    border:none;
+    height: 30px;
+    width: 35px;
+}
+.trash-btn{
+    background-color: red;
+    border:none;
+    height: 30px;
+    width: 35px;
+}
+.todo {
+    margin: 0.5rem;
+    background: white;
+    color: black;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: all 0.5s ease;
+}
+
+.todo li {
+    flex: 1;
+}
